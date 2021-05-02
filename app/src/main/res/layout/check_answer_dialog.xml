@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:background="@drawable/dialog"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Danh sách câu trả lời:"
+            android:textColor="#67b458"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridView
+            android:layout_marginLeft="54dp"
+            android:id="@+id/gvLsQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:numColumns="2"
+            android:background="#00FFFFFF"
+            android:paddingTop="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        "/>
+        <Button
+            android:id="@+id/btnCancle"
+            android:layout_width="4dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_lt"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="               "/>
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="4dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_kt"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        "/>
+    </LinearLayout>
+</LinearLayout>

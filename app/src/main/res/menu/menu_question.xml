@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/quesall"
+        android:title="Tất cả"
+        android:icon="@drawable/icon_danhsach"
+         />
+    <item
+        android:id="@+id/quesjava"
+        android:title="Java"
+        android:icon="@drawable/img_java"
+        />
+    <item
+        android:id="@+id/quesvixuly"
+        android:title="Vi xử lý"
+        android:icon="@drawable/imgvxl"
+        />
+    <item
+        android:id="@+id/quescnpm"
+        android:title="Thiết kế website"
+        android:icon="@drawable/web"
+        />
+    <item
+        android:id="@+id/quesweb"
+        android:title="Công nghệ phần mềm"
+        android:icon="@drawable/imgcnpm"
+        />
+</menu>

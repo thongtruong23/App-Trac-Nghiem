@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingTop="120dp"
+    tools:context=".monhoc.ThongTinFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="171dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Thông Tin"
+        android:textColor="#FF5722"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+<LinearLayout
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:text="- Ứng dụng được phát triển bởi nhóm các thành viên đến từ lớp 17IT2 gồm: Trương Văn Thông - Trịnh Hữu Hoàng - Trương Thị Mai Thanh."
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="392dp"
+            android:layout_weight="1"
+            android:text="- Ứng dụng trắc nghiệm kiến thức gồm các môn: Java, Vi xử lý, Công nghệ web, và Công nghệ phần mềm giúp cho các bạn sinh viên cũng cố thêm kiến thức cho bản thân."
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+

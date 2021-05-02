@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Trang Chủ" />
+    </group>
+
+    <item android:title="BỘ ĐỀ CÁC MÔN">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/java"
+                    android:icon="@drawable/icon_java"
+                    android:title="Môn Java" />
+                <item
+                    android:id="@+id/vxl"
+                    android:icon="@drawable/vxl"
+                    android:title="Môn Vi Xử Lý" />
+
+                <item
+                    android:id="@+id/web"
+                    android:icon="@drawable/icon_web"
+                    android:title="Môn Thiết Kế Website" />
+                <item
+                    android:id="@+id/cnpm"
+                    android:icon="@drawable/icon_cnpm"
+                    android:title="Môn Công Nghệ Phần Mềm" />
+            </group>
+
+
+        </menu>
+    </item>
+
+    <item android:title="CHỨC NĂNG KHÁC">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/search"
+                    android:icon="@drawable/icon_find"
+                    android:title="Tìm Kiếm Câu Hỏi" />
+
+                <item
+                    android:id="@+id/score"
+                    android:icon="@drawable/icon_danhsach"
+                    android:title="Danh Sách Điểm" />
+                <item
+                    android:id="@+id/language"
+                    android:icon="@drawable/iconlanguage"
+                    android:title="Chọn Ngôn Ngữ" />
+                <item
+                    android:id="@+id/infor"
+                    android:icon="@drawable/icinfor"
+                    android:title="Thông Tin Ứng Dụng" />
+
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Gửi Phản Hồi" />
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Chia sẻ" />
+            </group>
+
+
+        </menu>
+    </item>
+
+</menu>
